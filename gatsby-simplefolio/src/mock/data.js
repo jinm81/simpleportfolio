@@ -10,48 +10,51 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Hojin Mun',
+  subtitle: 'Fullstack Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'pexel.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://1drv.ms/w/s!Ak-3XyGCLki9i3yEWK9N1nUnHhTJ?e=VfnfcL', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'demo.png',
+    title: 'The gaming network',
+    info:
+      'Fullstack web for video gamers find friends or other gamers to play together, team of 3 in created a full-stack web used html, css, Javascript, node.js, Auth0,socket.Io, rapid api, mongodb,jquery',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://good-game2020.herokuapp.com/',
+    repo: 'https://github.com/adbergen/the-gaming-network/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'trace.jpg',
+    title: 'Trace',
+    info:
+      'Web app that uses passport to authenticate and login and stores all the tracking data Team of four created tracking website that is one stop for all the carriers Technology used : HTML CSS JavaScript, Bulma, Passport, mysql',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://tracerx.herokuapp.com/',
+    repo: 'https://github.com/adbergen/trace', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'rad.png',
+    title: 'Read your movie',
+    info:
+      'Web app that allows users to search a book to see if there is a movie version with details about it and vice versa via google books API and IMDB API Technology used : Html, CSS, Javascript, ajax, jQuery, animate, google books api, imdb api',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://mi6gy.github.io/read_your_movie/',
+    repo: 'https://github.com/mi6gy/read_your_movie', // if no repo, the button will not show up
   },
 ];
 
@@ -67,23 +70,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/hojinmun/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jinm81',
     },
   ],
 };
